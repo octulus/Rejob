@@ -1,0 +1,105 @@
+
+
+
+#body { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    font-family: PT Sans;
+
+}
+
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#ExampleInputEmail1 {
+
+    background: #f0f0f0;
+    border-radius: 0px;
+    outline: 0px;
+    border: 0px;
+}
+
+#ExampleInputEmail1:focus {
+    box-shadow: 0px 0px 0px 5px rgba(237,125,49,0.2);
+    background-color: #f0f0f0;
+    color: #ED7D31;
+}
+
+#ExampletInputPassword {
+
+    background: #f0f0f0;
+    border-radius: 0px;
+    outline: 0px;
+    border: 0px;
+}
+
+#ExampletInputPassword:focus {
+    box-shadow: 0px 0px 0px 5px rgba(237,125,49,0.2);
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+
+#buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 160px;
+    
+
+}
+
+#submitBtn {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    background-color: #ED7D31;
+    border: 0px;
+    border-radius: 0px;
+    
+}
+
+p{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#signUpBtn {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    color: #ED7D31;
+    font-weight: bold;
+    margin: 0px;
+    padding: 4px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    box-shadow: 0px 0px 0px 5px rgba(237,125,49,0.2);
+    
+
+}
+
+#signUpBtn:hover {
+    box-shadow: 0px 0px 0px 5px rgba(237,125,49,0.2);
+    background-color: rgba(237,125,49,0.05);
+    cursor: pointer;
+}

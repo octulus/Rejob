@@ -1,0 +1,182 @@
+#title { 
+    color: #ED7D31;
+    font-size: 36px;
+    font-family: Product Sans;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#tabs {
+    width: 100%;
+    font-size: 24px;
+    font-family: PT Sans;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin-top: 24px;
+
+}
+
+#worker {
+    width: 40%;
+    display: inline-block;
+   
+}
+
+#employer {
+    width: 40%;
+    display: inline-block;
+    
+}
+
+#workertext {
+    color: #ED7D31;
+    border-bottom: 4px solid #ED7D31;
+    transition: 0.2s;
+}
+
+#workertext:focus {
+
+}
+
+#workertext:hover {
+
+}
+
+#employertext {
+    color: #C7C7C7;
+    transition: 0.2s;
+
+}
+
+#employertext:focus {
+    color: rgb(237, 125, 49);
+    border-bottom: 4px solid #ED7D31;
+}
+
+#employertext:hover {
+    color: rgb(237, 125, 49, 0.5);
+}
+
+#form {
+    margin-top: 32px;
+    font-family: Pt Sans;
+}
+
+#domain {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    color: #c7c7c7;
+
+}
+
+#domains {
+    border-radius: 0px;
+    background-color: rgb(199, 199, 199, 0.2);
+    outline: 0px;
+    border: 0px;
+    width: 100%;
+    display: block;
+    font-family: PT Sans;
+    font-size: 24px;
+    color:#C7C7C7;
+    height: 48px;
+}
+
+.option {
+    color: #797979;
+}
+
+.form-group {
+    width: 100%;
+}
+
+#branch {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    color: #c7c7c7;
+    margin-top: 16px;
+}
+
+#exampleFormControlSelect1 { 
+    border-radius: 0px;
+    background-color: rgb(199, 199, 199, 0.2);
+    outline: 0px;
+    border: 0px;
+    width: 100%;
+    display: block;
+    font-family: PT Sans;
+    font-size: 24px;
+    color:#C7C7C7;
+    height: 48px;
+}
+
+#skillSelect {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    color: #a5a5a5;
+    margin-top: 32px;
+    margin-bottom: 0px;
+} 
+
+
+.form-check {
+    display: block ;
+    width: 100% ;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #797979;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.form-check-label {
+    display: block;
+    width: 100%;
+    justify-content: left !important;
+    margin-left: 24px;
+
+}
+
+#skills {
+    display: block;
+    width: 100%;
+}
+
+#submitBtn {
+    display: block;
+    width: 50%;
+    margin: 32px auto 32px auto;
+    background-color: #ED7D31;
+    font-family: PT Sans;
+    font-size: 24px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+#submitBtn:hover {
+    box-shadow: 0px 0px 0px 5px rgba(237,125,49,0.2);
+}
+
+.hidden {
+    display: none !important;
+}
+

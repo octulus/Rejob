@@ -1,0 +1,152 @@
+
+<head>
+    <meta charset="UTF-8"> 
+    <title> Create an account </title>
+    <meta name = "viewport" content = "windth=device.width, initial-scale=1, shrink-to-fit=no">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "../css/bootstrap.min.css">
+</head>
+
+<body> 
+    <div id = "title"> Now, let's tell people who you are </div>
+
+    <div class = "container">
+        <ul class = "nav" id = "tabs">
+            <li class = "nav-item" id = "worker">
+                <a class = "nav-link active" href = "../CreateEmployeeAccount/index.html" id="workertext">I'm a skilled worker</a>
+            </li>
+
+            <li class = "nav-item" id = "employer">
+                <a class = "nav-link active" href = "#" id="employertext">I'm an Employer</a>
+            </li>
+
+        </ul>
+
+        <form class="form-inline" id = "form">
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref" id = "domain">Your domain of activity</label>
+            <select class="custom-select my-1 mr-sm-2" id="domains">
+              <option selected id = "selectDomain">Choose a domain you have experience with</option>
+              <option value="engineer" class = "option">Engineering</option>
+              <option value="programmer" class = "option">Computer Science</option>
+              <option value="artist" class = "option">Arts and Design</option>
+              <option value="medic" class = "option">Health & Medical</option>
+              <option value="economist" class = "option">Economic</option>
+            </select>
+          
+            <div class="form-group hidden"  data-option = "engineer">
+                <label for="exampleFormControlSelect1" id = "branch">Select a brach of the domain</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option class = "option" data-option = "engineer">Mechanical</option>
+                  <option class = "option" data-option = "engineer">Robotics</option>
+                  <option class = "option" data-option = "engineer">Construction</option>
+                  <option class = "option" data-option = "engineer">Automation</option>
+                  <option class = "option" data-option = "engineer">Material</option>
+                  <option class = "option" data-option = "engineer">Other...</option>
+                </select>
+              </div>
+
+              <div class="form-group hidden" id = "programmer" data-option = "programmer">
+                <label for="exampleFormControlSelect1" id = "branch">Select a brach of the domain</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option class = "option" data-option = "programmer">Front-End Developer</option>
+                  <option class = "option" data-option = "programmer">Back-End Developer</option>
+                  <option class = "option" data-option = "programmer">DevOps</option>
+                  <option class = "option" data-option = "programmer">Full Stack Developer</option>
+                  <option class = "option" data-option = "programmer">Other...</option>
+                </select>
+              </div>
+
+              <div class="form-group hidden" id = "artist" data-option = "artist">
+                <label for="exampleFormControlSelect1" id = "branch">Select a brach of the domain</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option class = "option" data-option = "artist">Graphic Designer</option>
+                  <option class = "option" data-option = "artist">Illustrator</option>
+                  <option class = "option" data-option = "artist">Product Designer</option>
+                  <option class = "option" data-option = "artist">UI/UX Designer</option>
+                  <option class = "option" data-option = "artist">Architect</option>
+                </select>
+              </div>
+
+              <div class="form-group hidden" id = "medic" data-option = "medic">
+                <label for="exampleFormControlSelect1" id = "branch">Select a brach of the domain</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option class = "option" data-option = "medic">Surgeon</option>
+                  <option class = "option" data-option = "medic">Medical Assistant</option>
+                  <option class = "option" data-option = "medic">General Purpose Medic</option>
+                  <option class = "option" data-option = "medic">Other...</option>
+                </select>
+              </div>
+
+              <div class="form-group hidden" id = "economist" data-option = "economist">
+                <label for="exampleFormControlSelect1" id = "branch">Select a brach of the domain</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option class = "option" data-option = "economist">Data Analyst</option>
+                  <option class = "option" data-option = "economist">Economic Specialist</option>
+                  <option class = "option" data-option = "economist">Sales Manager</option>
+                  <option class = "option" data-option = "economist">Banker</option>
+                  <option class = "option" data-option = "economist">Other...</option>
+                </select>
+              </div>
+
+              <p id= "skillSelect">Select the skills that make you the perfect employee!</p>
+<div id = "skills">
+              <div class="form-check hidden" style = "width: 100%" data-skill="economist">
+                <input class="form-check-input" type="checkbox" >
+                <span class = "checkbox"></span>
+                <label class="form-check-label" for="defaultCheck1">
+                  People person
+                </label>
+              </div>
+              <div class="form-check hidden" style = "width: 100%" data-skill="engineer">
+                <input class="form-check-input" type="checkbox">
+                <span class = "checkbox"></span>
+                <label class="form-check-label" for="defaultCheck1">
+                  Engineering
+                </label>
+              </div>
+              <div class="form-check hidden" style = "width: 100%" data-skill="economist">
+                <input class="form-check-input" type="checkbox">
+                <span class = "checkbox"></span>
+                <label class="form-check-label" for="defaultCheck1">
+                  Communication
+                </label>
+              </div>
+              <div class="form-check hidden" style = "width: 100%" data-skill="programmer">
+                <input class="form-check-input" type="checkbox">
+                <span class = "checkbox"></span>
+                <label class="form-check-label" for="defaultCheck1">
+                  Problem solving
+                </label>
+              </div>
+              <div class="form-check hidden" style = "width: 100%" data-skill="programmer">
+                <input class="form-check-input" type="checkbox">
+                <span class = "checkbox"></span>
+                <label class="form-check-label" for="defaultCheck1">
+                  Science
+                </label>
+              </div>
+              <div class="form-check hidden" style = "width: 100%" data-skill="artist">
+                <input class="form-check-input" type="checkbox">
+                <span class = "checkbox"></span>
+                <label class="form-check-label" for="defaultCheck1">
+                  Arts and Design
+                </label>
+              </div>
+              <div class="form-check hidden" style = "width: 100%" data-skill="artist">
+                <input class="form-check-input" type="checkbox">
+                <span class = "checkbox"></span>
+                <label class="form-check-label" for="defaultCheck1">
+                  Architecture
+                </label>
+              </div>
+</div>
+<br>
+<br>
+<br>
+              <button class = "btn btn-primary" id = "submitBtn" >DONE</button>
+
+        </form>
+    </div>
+
+<script src = "main.js"> </script>
+</body>

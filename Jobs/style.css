@@ -1,0 +1,218 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    display: inline-block;
+    height: 48px;
+    width: 74%;
+}
+
+#logo img {
+    height: 48px;
+}
+
+#profilePicture {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+
+}
+
+#profilePicture img {
+    width: 200px;
+    height: 200px;
+}
+
+#sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #ED7D31;
+    left: -290px;
+    top: 0px;
+    transition: 0.4s;
+}
+
+#sidebar ul li {
+    font-family: PT Sans;
+    font-size: 24px; 
+    list-style: none;
+    color: #fff;
+    margin: 12px 0px 0px 48px;
+    cursor: pointer;
+}
+
+#logoutBtn {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    bottom: 50px;
+    position: absolute;
+    bottom: 50px;
+    color: #fff;
+    border-radius: 0px;
+    border-color: #fff;
+
+}
+
+#name {
+    margin: 0px 0px 0px 0px;
+    display: block;
+    text-align: center;
+    font-family: Product Sans;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#info {
+    margin: 0px 0px 0px 0px;
+    display: block;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#toggle-btn {
+    display: block;
+    width: 32px;
+    height: 20px;
+}
+
+
+#toggle-btn img {
+    width: 32px;
+    height: 20px;
+    margin-top: 32px;
+    margin-left: 48px;
+    cursor: pointer;
+}
+
+#untoggle-btn img {
+    width: 20px;
+    height: 20px;
+    margin-top: 32px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+#sidebar.active {
+    left: 0px;
+}
+
+#container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    positon: absolute;
+}
+
+#topnav {
+    height: 48px;
+    width: 100%;
+}
+
+#searchBar {
+    width: 100%;
+    
+    height: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+#jobTop {
+    margin: 0px 0px 32px 0px;
+    font-family: PT Sans;
+    font-size: 24pt;
+    font-weight: Bold;
+}
+
+#searchBar input{
+    height: 48px;
+    width: 80%;
+    background-color: rgba(199,199,199,0.2);
+    border: 0px;
+    padding-left: 24px;
+    display: inline-block;
+}
+
+
+#jobTop #editJob {
+    float: right;
+
+}
+
+#searchIcon {
+    display: inline-block;
+    margin-left: 32px;
+}
+
+#notifications {
+    width: 25%;
+    display: inline-block;
+    right: 25px;
+    text-align: right;
+}
+
+#notifications img {
+    display: inline-block;
+    height: 32px;
+    scale: auto;
+}
+
+.card .card-title {
+    font-family: Product Sans;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card .card-text {
+    font-family: PT Sans;
+    font-size: 18px;
+}
+
+.card .Primaryskill { 
+    color: #fff;
+    background-color: #ED7D31;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.card .Secondaryskill {
+    color: #000;
+    background-color: #c7c7c7;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.card .btn-block {
+    background-color: #ED7D31;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.card-body { 
+    width: 100%;
+}
+
+.jobLogo {
+    display: block;
+    top: 50px;
+    left: 20px;
+}
+
+.jobLogo img{
+    width: 72px;
+    height: 72px;
+    float: left;
+    margin: 0px 12px 0px 0px;
+}
